@@ -32,6 +32,10 @@ public class Invento {
 	public void setFecha(int fecha) {
 		this.fecha = fecha;
 	}
+	@Override
+	public String toString() {
+		return "Invento [nombeInvento=" + nombeInvento + ", inventor=" + inventor + ", fecha=" + fecha + "]";
+	}
 	
 	
 	

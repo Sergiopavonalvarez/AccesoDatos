@@ -20,6 +20,7 @@ public class TestMain {
 			test1.setFecha(1454);
 			test1.setInventor("Gutemberg");
 			test1.setNombeInvento("Imprenta");
+		
 
 			test2.setFecha(1769);
 			test2.setInventor("Edward Jenner");
