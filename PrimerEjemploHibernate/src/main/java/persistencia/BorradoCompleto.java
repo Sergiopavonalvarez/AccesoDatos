@@ -31,7 +31,6 @@ public class BorradoCompleto {
 		}
 
 		session.getTransaction().commit();
-		;
 		session.close();
 		sf.close();
 
