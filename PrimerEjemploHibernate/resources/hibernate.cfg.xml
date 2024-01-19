@@ -10,6 +10,9 @@
   <property name="hibernate.connection.url">jdbc:h2:~/test</property>
   <property name="hibernate.connection.username">sa</property>
   <property name="hibernate.default_entity_mode">dom4j</property>
+  <property name="hibernate.hbm2ddl.auto">create</property>
   <mapping class="entities.Invento"/>
+  <mapping class="Autor" package="entidades" resource="/entidades.Autor.hbm.xml"></mapping>
+  <mapping class="Libro" package="entidades" resource="/entidades.Libro.hbm.xml"></mapping> 
  </session-factory>
 </hibernate-configuration>
