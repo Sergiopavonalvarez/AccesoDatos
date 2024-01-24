@@ -11,6 +11,9 @@ public class AlumnoCFGS implements Serializable {
     public long horasEnElLOL;
     public String juegoFavorito;
 
+    public AlumnoCFGS(String s, byte b, byte b1, float alturaMetro, boolean b2, long l, String s1) {
+    }
+
     public byte getEdad() {
         return edad;
     }
