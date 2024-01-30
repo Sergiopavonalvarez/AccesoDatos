@@ -10,6 +10,7 @@
   <property name="hibernate.connection.username">sa</property>
   <property name="hibernate.default_entity_mode">dom4j</property>
   <property name="hibernate.format_sql">true</property>
+  <property name="hibernate.hbm2ddl.auto">create</property>
   <mapping class="entities.Invento"/>
  </session-factory>
 </hibernate-configuration>
